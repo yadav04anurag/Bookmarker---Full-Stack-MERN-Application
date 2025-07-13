@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Light mode customizations */
+:root {
+  --custom-bg: #f9fafb;
+  --custom-text: #1f2937;
+  --custom-primary: #3b82f6;
+}
+
+/* Dark mode customizations */
+.dark {
+  --custom-bg: #1f2937;
+  --custom-text: #f9fafb;
+  --custom-accent: #f472b6;
+  --custom-border: #374151;
+  --custom-shadow: 0 4px 24px rgba(0,0,0,0.3);
+  --custom-card-bg: #273043;
+  --custom-primary: #60a5fa;
+}
+
+/* Example usage */
+body {
+  background-color: var(--custom-bg);
+  color: var(--custom-text);
+}
+
+a {
+  color: var(--custom-primary);
+}
